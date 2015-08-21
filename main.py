@@ -19,6 +19,8 @@ import RPi.GPIO as GPIO
 import subprocess, time, Image, socket
 from Adafruit_Thermal import *
 
+GPIO.setmode(GPIO.BCM)
+
 ledPin       = 18
 buttonPin    = 23
 holdTime     = 2     # Duration for button hold (shutdown)
