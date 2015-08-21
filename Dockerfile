@@ -5,6 +5,7 @@ RUN apt-get update
 RUN apt-get upgrade -y
 
 RUN apt-get install -y python wget build-essential python-dev python-pip
+RUN apt-get install python-serial python-imaging python-unidecode
 
 RUN pip install RPi.Gpio
 
