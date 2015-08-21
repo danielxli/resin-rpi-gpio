@@ -10,4 +10,4 @@ RUN pip install RPi.Gpio
 
 ADD gpio_example.py /App/
 
-CMD ["python", "/App/gpio_example.py"]
+CMD ["python", "/App/main.py"]
